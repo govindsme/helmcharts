@@ -26,5 +26,11 @@ jobs:
 
       - name: Lint Chart
         run: |
-          pwd
-          ls -rlt
+          chart=$(find . -maxdepth 1 -mindepth 1 -type d|grep -v 'doc\|.github\|.git')
+          helm lint $chart
+          helm package $chart
+          helm repo index .
+          git add .
+          git commit -m "new chart release"
+          git push origin main
+
