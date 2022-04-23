@@ -1,2 +1,3 @@
 # helmcharts
-My Helm Charts
+
+This repository holds my helm charts
