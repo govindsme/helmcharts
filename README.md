@@ -1,2 +1,0 @@
-# helmcharts
-My Helm Charts

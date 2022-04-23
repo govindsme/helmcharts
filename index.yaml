@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  myhttpd:
+  - apiVersion: v2
+    appVersion: 2.4.53
+    created: "2022-04-23T08:47:41.272356453Z"
+    description: A Helm chart for Kubernetes
+    digest: 5af6f0bf5dfde6d13f8b8751f5e46afa808e340e9145b26b56f4377ef079fbd9
+    name: myhttpd
+    type: application
+    urls:
+    - myhttpd-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-23T08:47:41.271061212Z"
