@@ -28,9 +28,19 @@ jobs:
         run: |
           chart=$(find . -maxdepth 1 -mindepth 1 -type d|grep -v 'doc\|.github\|.git')
           helm lint $chart
+     
+      - name: Package Chart
+        run: |
+          chart=$(find . -maxdepth 1 -mindepth 1 -type d|grep -v 'doc\|.github\|.git')
           helm package $chart
+
+          
+      - name: Index Chart
+        run: |
           helm repo index .
+          
+      - name: Publish Chart
+        run: |
           git add .
           git commit -m "new chart release"
           git push origin main
-
