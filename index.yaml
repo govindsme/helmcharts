@@ -3,9 +3,9 @@ entries:
   myhttpd:
   - apiVersion: v2
     appVersion: 2.4.53
-    created: "2022-04-23T09:35:21.213580294Z"
+    created: "2022-04-23T09:35:42.700617621Z"
     description: A Helm chart for Kubernetes
-    digest: b4b23f8ef924439e365480f1e9b1afe691b23d99b08328e37715048a3d38e1ae
+    digest: 19bc501cb092e6e16cfd8377cf826f169fc83bfba0aa4602113bd703667e408e
     name: myhttpd
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 2.4.53
-    created: "2022-04-23T09:35:21.21274299Z"
+    created: "2022-04-23T09:35:42.699969313Z"
     description: A Helm chart for Kubernetes
     digest: 0421c181926ff43d4b3fc379fd3a94a15038e52494d21f14509f970b9148320d
     name: myhttpd
@@ -23,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.4.53
-    created: "2022-04-23T09:35:21.211698185Z"
+    created: "2022-04-23T09:35:42.699034901Z"
     description: A Helm chart for Kubernetes
     digest: 5af6f0bf5dfde6d13f8b8751f5e46afa808e340e9145b26b56f4377ef079fbd9
     name: myhttpd
@@ -31,4 +31,4 @@ entries:
     urls:
     - myhttpd-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-23T09:35:21.210462679Z"
+generated: "2022-04-23T09:35:42.697930287Z"
